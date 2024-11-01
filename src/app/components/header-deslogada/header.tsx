@@ -65,7 +65,7 @@ const HeaderDeslogada = () => {
             Entrar
           </Link>
           <Link
-            href="/cadastrar"
+            href="/cadastro"
             className="px-4 py-2 border border-white rounded-lg bg-[#913276] text-[#FFFFFF] hover:bg-gray-300 transition hover:text-[#913276]"
           >
             Cadastrar

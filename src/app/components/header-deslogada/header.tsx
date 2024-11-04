@@ -46,13 +46,13 @@ const HeaderDeslogada = () => {
               </Link>
             </li>
             <li>
-              <Link href="/avaliacoes" className="hover:text-[#913276]">
-                Avaliações
+              <Link href="/section-faq" className="hover:text-[#913276]">
+                Ajuda
               </Link>
             </li>
             <li>
-              <Link href="/ajuda" className="hover:text-[#913276]">
-                Ajuda
+              <Link href="/avaliacoes" className="hover:text-[#913276]">
+                Avaliações
               </Link>
             </li>
           </ul>

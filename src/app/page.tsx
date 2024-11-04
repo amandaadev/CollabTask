@@ -1,5 +1,7 @@
 import HeaderDeslogada from "./components/header-deslogada/header";
 import HeroSection from "./components/hero-section/hero";
+import SectionAvaliacao from "./components/section-avaliacoes/avaliacoes";
+import SectionFaq from "./components/section-faq/faq";
 import SectionPlans from "./components/section-plans/planos";
 import SectionSobre from "./components/section-sobre/sobre";
 
@@ -10,6 +12,8 @@ export default function Home() {
       <HeroSection />
       <SectionSobre />
       <SectionPlans />
+      <SectionFaq />
+      <SectionAvaliacao />
     </>
   );
 }

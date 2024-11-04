@@ -25,7 +25,6 @@ const SectionSobre = () => {
           </p>
         </div>
       </div>
-      <div className="mt-20 ml-20"></div>
     </div>
   );
 };

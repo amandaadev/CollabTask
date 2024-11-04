@@ -5,7 +5,10 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <div className="h-screen bg-gradient-to-r from-[#a735b5] to-[#b33375] flex items-center justify-between p-8 pb-20 gap-16">
-      <div className="flex-col justify-center">
+      <div
+        className="flex-col justify-center ml-56
+      "
+      >
         <h1 className="text-[#FFFFFF] font-archivo-bold font-bold text-5xl">
           ColabTask é o hub de tarefas
           <br /> ideal para o seu time
@@ -25,7 +28,7 @@ const HeroSection = () => {
           </Link>
         </div>
       </div>
-      <div className="mt-20 ml-20">
+      <div className="mt-20 mr-56">
         <Image
           src="/img/img-home.svg"
           alt="Home Illustration"

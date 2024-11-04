@@ -9,7 +9,7 @@ const SectionSobre = () => {
           alt="Home Illustration"
           width={580}
           height={360}
-          className="pt-32 pl-7 lg:pr-[35px] w-full mb-8 lg:mb-0 max-w-[580px]"
+          className="pl-7 lg:pr-[35px] w-full mb-8 lg:mb-0 max-w-[580px]"
         />
         <div className="flex flex-col max-w-full m-10">
           <h1 className="mb-[15px] text-[#913276] font-archivo-bold font-bold text-[32px] ">

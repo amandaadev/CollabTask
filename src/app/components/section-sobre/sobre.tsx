@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const SectionSobre = () => {
   return (
-    <div className="min-h-screen bg-[#FFFFFF] flex-col gap-8 lg:flex-row flex justify-between p-8 pb-20 lg:gap-16">
+    <div className="bg-[#FFFFFF] flex-col gap-8 lg:flex-row flex justify-between p-8 pb-20 lg:gap-16">
       <div className="flex flex-col-reverse lg:flex-row items-center lg:p-28">
         <Image
           src="/img/img-sobre.svg"
-          alt="Home Illustration"
+          alt="Sobre Illustration"
           width={580}
           height={360}
           className="pl-7 lg:pr-[35px] w-full mb-8 lg:mb-0 max-w-[580px]"

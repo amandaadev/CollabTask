@@ -10,7 +10,7 @@ const Cadastro = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Lógica de envio do formulário (como login, por exemplo)
+    // Definir a lógica de envio do formulário (login, por exemplo)
     console.log("Email:", email);
     console.log("Password:", password);
     console.log("Lembrar de mim:", rememberMe);

@@ -18,8 +18,16 @@ const SectionFooter = () => {
             para mais produtividade e organização.
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row gap-4 lg:max-h-[308px] lg:min-w-[360px]">
-          <ul>
+        <div className="flex flex-col lg:flex-row gap-6 lg:max-h-[308px] lg:min-w-[360px]">
+          <ul className="flex flex-col gap-6">
+            <li>
+              <a
+                href="#"
+                className="text-[#5B5858] hover:text-[#913276] text-sm sm:text-base"
+              >
+                Início
+              </a>
+            </li>
             <li>
               <a
                 href="#"
@@ -42,6 +50,14 @@ const SectionFooter = () => {
                 className="text-[#5B5858] hover:text-[#913276] text-sm sm:text-base"
               >
                 Ajuda
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="text-[#5B5858] hover:text-[#913276] text-sm sm:text-base"
+              >
+                Avaliações
               </a>
             </li>
           </ul>

@@ -13,7 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        archivo: ["archivo-bold"],
+        archivo: ["Archivo", "Arial", "Helvetica", "sans-serif"],
       },
     },
   },

@@ -88,7 +88,7 @@ const reviews = [
   },
 ];
 
-const SectionAvaliacao = () => {
+const SectionAvaliacoes = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -116,8 +116,8 @@ const SectionAvaliacao = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#FFFFFF] p-4">
-      <h1 className="text-center text-[#FFFFFF] font-archivo-bold font-bold text-[32px] p-12">
+    <div id="avaliacoes" className="min-h-screen bg-[#FFFFFF] p-4">
+      <h1 className="text-center text-[#ffffff] font-archivo-bold font-bold text-[32px] p-12">
         Avaliações
       </h1>
       <Slider {...settings} className="m-8">
@@ -154,4 +154,4 @@ const SectionAvaliacao = () => {
   );
 };
 
-export default SectionAvaliacao;
+export default SectionAvaliacoes;

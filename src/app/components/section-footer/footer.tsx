@@ -30,7 +30,7 @@ const SectionFooter = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#sobre"
                 className="text-[#5B5858] hover:text-[#913276] text-sm sm:text-base"
               >
                 Sobre
@@ -38,7 +38,7 @@ const SectionFooter = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#planos"
                 className="text-[#5B5858] hover:text-[#913276] text-sm sm:text-base"
               >
                 Planos
@@ -46,18 +46,18 @@ const SectionFooter = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#avaliaçoes"
                 className="text-[#5B5858] hover:text-[#913276] text-sm sm:text-base"
               >
-                FAQ
+                Avaliações
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="#faq"
                 className="text-[#5B5858] hover:text-[#913276] text-sm sm:text-base"
               >
-                Avaliações
+                FAQ
               </a>
             </li>
           </ul>

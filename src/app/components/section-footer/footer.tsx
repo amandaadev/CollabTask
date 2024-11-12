@@ -49,7 +49,7 @@ const SectionFooter = () => {
                 href="#"
                 className="text-[#5B5858] hover:text-[#913276] text-sm sm:text-base"
               >
-                Ajuda
+                FAQ
               </a>
             </li>
             <li>

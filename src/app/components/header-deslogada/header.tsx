@@ -47,7 +47,7 @@ const HeaderDeslogada = () => {
             </li>
             <li>
               <Link href="/section-faq" className="hover:text-[#913276]">
-                Ajuda
+                FAQ
               </Link>
             </li>
             <li>

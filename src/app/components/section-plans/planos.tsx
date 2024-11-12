@@ -1,6 +1,9 @@
 const SectionPlans = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-[#a735b5] to-[#b33375] p-4">
+    <div
+      id="planos"
+      className="min-h-screen bg-gradient-to-r from-[#a735b5] to-[#b33375] p-4"
+    >
       <h1 className="text-center text-[#FFFFFF] font-archivo-bold font-bold text-[32px] p-12">
         Planos
       </h1>

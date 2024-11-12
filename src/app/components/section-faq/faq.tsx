@@ -47,7 +47,7 @@ const SectionFaq = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#f9fafb]">
+    <div id="faq" className="min-h-screen bg-[#f9fafb]">
       <div className="bg-gradient-to-r from-[#a735b5] to-[#b33375] h-60 w-full flex justify-center items-center flex-col">
         <div className="flex flex-col items-center m-10">
           <h1 className="mb-4 text-[#ffffff] font-sans font-bold text-xl md:text-4xl">

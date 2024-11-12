@@ -12,7 +12,7 @@ const HeaderDeslogada = () => {
     <>
       <header className="fixed top-0 left-0 right-0 flex items-center justify-between h-20 px-6 bg-[#FFFFFF] text-[#5B5858] text-xl font-sans z-50">
         <div className="flex items-center">
-          <img src="/img/logo.png" alt="Logo" className="h-12" />
+          <img src="/img/logo-white.png" alt="Logo" className="h-12" />
         </div>
         <div className="md:hidden">
           <button

@@ -13,8 +13,8 @@ export default function Home() {
       <HeroSection />
       <SectionSobre />
       <SectionPlans />
-      <SectionFaq />
       <SectionReviews />
+      <SectionFaq />
       <SectionFooter />
     </>
   );

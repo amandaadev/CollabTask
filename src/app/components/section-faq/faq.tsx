@@ -89,7 +89,7 @@ const SectionFaq = () => {
               {openIndex === index ? (
                 <ChevronUpIcon className="w-5 h-5 text-[#64183F]" />
               ) : (
-                <ChevronDownIcon className="w-5 h-5 text-[#64183F]" />
+                <ChevronDownIcon className="w-5 h-5 text-[#b33375]" />
               )}
             </button>
             {openIndex === index && (

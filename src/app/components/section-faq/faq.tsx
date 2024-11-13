@@ -70,7 +70,7 @@ const SectionFaq = () => {
               Buscar
             </button>
           </div>
-          <div className="mb-11 mt-8 text-[#5271ff] hover:text-[#ffffff]">
+          <div className="mb-11 mt-8 text-[#AFC2FF] hover:text-[#ffffff]">
             <p>
               <Link href="/ajuda">Ainda precisa de ajuda?</Link>
             </p>

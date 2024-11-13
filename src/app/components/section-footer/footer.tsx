@@ -21,37 +21,49 @@ const SectionFooter = () => {
         <div className="flex flex-col lg:flex-row gap-6 lg:max-h-[308px] lg:min-w-[360px]">
           <ul className="flex flex-col gap-6">
             <li>
-              <a href="#" className="text-[#FFFFFF] text-sm sm:text-base">
+              <a
+                href="#"
+                className="text-[#FFFFFF] hover:text-[#AFC2FF]  text-sm sm:text-base"
+              >
                 Início
               </a>
             </li>
             <li>
-              <a href="#sobre" className="text-[#FFFFFF] text-sm sm:text-base">
+              <a
+                href="#sobre"
+                className="text-[#FFFFFF] hover:text-[#AFC2FF]  text-sm sm:text-base"
+              >
                 Sobre
               </a>
             </li>
             <li>
-              <a href="#planos" className="text-[#FFFFFF] text-sm sm:text-base">
+              <a
+                href="#planos"
+                className="text-[#FFFFFF] hover:text-[#AFC2FF]  text-sm sm:text-base"
+              >
                 Planos
               </a>
             </li>
             <li>
               <a
                 href="#reviews"
-                className="text-[#FFFFFF] text-sm sm:text-base"
+                className="text-[#FFFFFF] hover:text-[#AFC2FF]  text-sm sm:text-base"
               >
                 Avaliações
               </a>
             </li>
             <li>
-              <a href="#faq" className="text-[#FFFFFF] text-sm sm:text-base">
+              <a
+                href="#faq"
+                className="text-[#FFFFFF] hover:text-[#AFC2FF]  text-sm sm:text-base"
+              >
                 FAQ
               </a>
             </li>
             <li>
               <a
                 href="/ajuda"
-                className="text-[#FFFFFF] hover:text-[#913276] text-sm sm:text-base"
+                className="text-[#FFFFFF] hover:text-[#AFC2FF] text-sm sm:text-base"
               >
                 Ajuda
               </a>

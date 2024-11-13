@@ -48,6 +48,14 @@ const SectionFooter = () => {
                 FAQ
               </a>
             </li>
+            <li>
+              <a
+                href="/ajuda"
+                className="text-[#FFFFFF] hover:text-[#913276] text-sm sm:text-base"
+              >
+                Ajuda
+              </a>
+            </li>
           </ul>
         </div>
         <div className="flex flex-col justify-start gap-4 sm:gap-6 lg:items-start">

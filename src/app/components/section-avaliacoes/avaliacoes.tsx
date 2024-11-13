@@ -117,13 +117,13 @@ const SectionAvaliacoes = () => {
 
   return (
     <div id="avaliacoes" className="min-h-screen bg-[#FFFFFF] p-4">
-      <h1 className="text-center text-[#ffffff] font-archivo-bold font-bold text-[32px] p-12">
+      <h1 className="text-center text-[#5271ff] font-archivo-bold font-bold text-[32px] p-12">
         Avaliações
       </h1>
       <Slider {...settings} className="m-8">
         {reviews.map((review, index) => (
           <div key={index} className="p-4 mt-20">
-            <div className="w-[333px] h-[364px] bg-white rounded-2xl p-6 shadow-md text-[#7C7777] border-4 border-[#64183F]">
+            <div className="w-[333px] h-[364px] bg-white rounded-2xl p-6 shadow-md text-[#7C7777] border-4 border-[#989aa3]">
               <div className="flex flex-col items-center mb-4">
                 {/* Exibe a imagem de perfil */}
                 <img

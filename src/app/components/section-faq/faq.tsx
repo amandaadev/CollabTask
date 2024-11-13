@@ -47,8 +47,8 @@ const SectionFaq = () => {
   ];
 
   return (
-    <div id="faq" className="min-h-screen bg-[#f9fafb]">
-      <div className="bg-gradient-to-r from-[#a735b5] to-[#b33375] h-60 w-full flex justify-center items-center flex-col">
+    <div id="faq" className="min-h-screen bg-[#F9FAFB]">
+      <div className="bg-[#5271ff] h-60 w-full flex justify-center items-center flex-col">
         <div className="flex flex-col items-center m-10">
           <h1 className="mb-4 text-[#ffffff] font-sans font-bold text-xl md:text-4xl">
             FAQ
@@ -59,18 +59,18 @@ const SectionFaq = () => {
             <div className="relative w-full sm:w-auto flex-1 lg:w-[373px]">
               <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-[#9ca3af]" />
               <input
-                className="w-full h-12 border border-gray-300 rounded-lg pl-10 pr-4 focus:border-[#64183F] focus:ring-0 focus:outline-none"
+                className="w-full h-12 border border-gray-300 rounded-lg pl-10 pr-4 focus:border-[#5271ff] focus:ring-0 focus:outline-none"
                 type="search"
                 name="perguntas"
                 id="perguntas"
                 placeholder="Digite sua pergunta"
               />
             </div>
-            <button className="rounded-lg w-full sm:w-auto h-12 bg-[#913276] text-[#ffffff] px-4">
+            <button className="rounded-lg w-full sm:w-auto h-12 bg-[#3C5EDD] hover:bg-[#9BB3FF] text-[#ffffff] px-4">
               Buscar
             </button>
           </div>
-          <div className="mb-11 mt-8 text-[#64183F] hover:text-[#ffffff]">
+          <div className="mb-11 mt-8 text-[#AFC2FF] hover:text-[#ffffff]">
             <p>
               <Link href="/ajuda">Ainda precisa de ajuda?</Link>
             </p>
@@ -83,13 +83,13 @@ const SectionFaq = () => {
           <div key={index} className="border border-gray-300 rounded-lg mb-2">
             <button
               onClick={() => toggleFAQ(index)}
-              className="flex justify-between items-center w-full p-4 text-left text-[#64183F]"
+              className="flex justify-between items-center w-full p-4 text-left text-[#5271ff]"
             >
               <span className="text-lg font-semibold">{faq.question}</span>
               {openIndex === index ? (
-                <ChevronUpIcon className="w-5 h-5 text-[#64183F]" />
+                <ChevronUpIcon className="w-5 h-5 text-[#AFC2FF]" />
               ) : (
-                <ChevronDownIcon className="w-5 h-5 text-[#b33375]" />
+                <ChevronDownIcon className="w-5 h-5 text-[#5271ff]" />
               )}
             </button>
             {openIndex === index && (

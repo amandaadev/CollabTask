@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const SectionFooter = () => {
   return (
-    <footer className="bg-gradient-to-r from-[#a735b5] to-[#b33375] px-8 sm:px-16 lg:px-40 py-16 font-archivo-bold">
+    <footer className="bg-[#5271ff] px-8 sm:px-16 lg:px-40 py-16 font-archivo-bold">
       <div className="flex flex-col lg:flex-row lg:justify-between gap-8 lg:gap-0">
         <div className="flex flex-col w-full max-w-[245px] lg:max-w-[245px] leading-5">
           <Image
-            src="/img/logo-degrade.png"
+            src="/img/colab-task-blue.png"
             alt="Logo"
             width={200}
             height={25}
@@ -21,37 +21,49 @@ const SectionFooter = () => {
         <div className="flex flex-col lg:flex-row gap-6 lg:max-h-[308px] lg:min-w-[360px]">
           <ul className="flex flex-col gap-6">
             <li>
-              <a href="#" className="text-[#FFFFFF] text-sm sm:text-base">
+              <a
+                href="#"
+                className="text-[#FFFFFF] hover:text-[#AFC2FF]  text-sm sm:text-base"
+              >
                 Início
               </a>
             </li>
             <li>
-              <a href="#sobre" className="text-[#FFFFFF] text-sm sm:text-base">
+              <a
+                href="#sobre"
+                className="text-[#FFFFFF] hover:text-[#AFC2FF]  text-sm sm:text-base"
+              >
                 Sobre
               </a>
             </li>
             <li>
-              <a href="#planos" className="text-[#FFFFFF] text-sm sm:text-base">
+              <a
+                href="#planos"
+                className="text-[#FFFFFF] hover:text-[#AFC2FF]  text-sm sm:text-base"
+              >
                 Planos
               </a>
             </li>
             <li>
               <a
-                href="#avaliaçoes"
-                className="text-[#FFFFFF] text-sm sm:text-base"
+                href="#reviews"
+                className="text-[#FFFFFF] hover:text-[#AFC2FF]  text-sm sm:text-base"
               >
                 Avaliações
               </a>
             </li>
             <li>
-              <a href="#faq" className="text-[#FFFFFF] text-sm sm:text-base">
+              <a
+                href="#faq"
+                className="text-[#FFFFFF] hover:text-[#AFC2FF]  text-sm sm:text-base"
+              >
                 FAQ
               </a>
             </li>
             <li>
               <a
                 href="/ajuda"
-                className="text-[#FFFFFF] hover:text-[#913276] text-sm sm:text-base"
+                className="text-[#FFFFFF] hover:text-[#AFC2FF] text-sm sm:text-base"
               >
                 Ajuda
               </a>

@@ -37,7 +37,7 @@ const SectionFooter = () => {
             </li>
             <li>
               <a
-                href="#avaliaçoes"
+                href="#reviews"
                 className="text-[#FFFFFF] text-sm sm:text-base"
               >
                 Avaliações

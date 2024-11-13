@@ -4,7 +4,7 @@ const SectionPlans = () => {
       id="planos"
       className="min-h-screen bg-gradient-to-r from-[#a735b5] to-[#b33375] p-4"
     >
-      <h1 className="text-center text-[#FFFFFF] font-archivo-bold font-bold text-[32px] p-12">
+      <h1 className="text-center text-[#FFFFFF] font-archivo-bold font-bold text-[42px] sm:pb-40 pt-12 pb-10 ">
         Planos
       </h1>
       <div className="flex flex-wrap justify-center gap-8">

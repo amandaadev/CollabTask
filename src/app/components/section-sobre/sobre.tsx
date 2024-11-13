@@ -4,7 +4,7 @@ const SectionSobre = () => {
   return (
     <div
       id="sobre"
-      className="h-screen bg-[#FFFFFF] flex-col gap-8 lg:flex-row flex justify-between p-8 pb-20 lg:gap-16"
+      className="min-h-screen bg-[#FFFFFF] flex-col gap-8 lg:flex-row flex justify-between p-8 pb-20 lg:gap-16"
     >
       <div className="flex flex-col-reverse lg:flex-row items-center lg:p-28">
         <Image

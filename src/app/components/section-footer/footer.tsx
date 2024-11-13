@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const SectionFooter = () => {
   return (
-    <footer className="bg-gradient-to-r from-[#a735b5] to-[#b33375] px-8 sm:px-16 lg:px-40 py-16 font-archivo-bold">
+    <footer className="bg-[#5271ff] px-8 sm:px-16 lg:px-40 py-16 font-archivo-bold">
       <div className="flex flex-col lg:flex-row lg:justify-between gap-8 lg:gap-0">
         <div className="flex flex-col w-full max-w-[245px] lg:max-w-[245px] leading-5">
           <Image
-            src="/img/logo-degrade.png"
+            src="/img/colab-task-blue.png"
             alt="Logo"
             width={200}
             height={25}

@@ -1,3 +1,4 @@
+import FormAjuda from "./ajuda/page";
 import HeaderDeslogada from "./components/header-deslogada/header";
 import HeroSection from "./components/hero-section/hero";
 import SectionReviews from "./components/reviews-section/reviews";

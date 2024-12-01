@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const SectionPlans = () => {
   return (
     <div id="planos" className="min-h-screen bg-[#F9FAFB] p-4">
@@ -17,9 +19,12 @@ const SectionPlans = () => {
             </div>
           </div>
           <div className="flex justify-center mb-7">
-            <button className="bg-[#F9FAFB] hover:bg-[#AFC2FF] text-[#5271ff] font-medium lg:h-[40px] lg:w-[190px] h-10 w-32 text-[15px] rounded-full">
+            <Link
+              href="/planos"
+              className="bg-[#F9FAFB] hover:bg-[#AFC2FF]  text-[#5271ff] font-medium lg:h-[40px] lg:w-[190px] h-10 w-32 text-[15px] rounded-full flex justify-center px-4 py-2"
+            >
               Contratar
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -35,9 +40,12 @@ const SectionPlans = () => {
             </div>
           </div>
           <div className="flex justify-center mb-7">
-            <button className="bg-[#F9FAFB] hover:bg-[#AFC2FF] text-[#5271ff] font-medium lg:h-[40px] lg:w-[190px] h-10 w-32 text-[15px] rounded-full">
+            <Link
+              href="/planos"
+              className="bg-[#F9FAFB] hover:bg-[#AFC2FF]  text-[#5271ff] font-medium lg:h-[40px] lg:w-[190px] h-10 w-32 text-[15px] rounded-full flex justify-center px-4 py-2"
+            >
               Contratar
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -53,9 +61,12 @@ const SectionPlans = () => {
             </div>
           </div>
           <div className="flex justify-center mb-7">
-            <button className="bg-[#F9FAFB] hover:bg-[#AFC2FF]  text-[#5271ff] font-medium lg:h-[40px] lg:w-[190px] h-10 w-32 text-[15px] rounded-full">
+            <Link
+              href="/planos"
+              className="bg-[#F9FAFB] hover:bg-[#AFC2FF]  text-[#5271ff] font-medium lg:h-[40px] lg:w-[190px] h-10 w-32 text-[15px] rounded-full flex justify-center px-4 py-2"
+            >
               Contratar
-            </button>
+            </Link>
           </div>
         </div>
         <div className="w-full max-w-[260px] h-[360px] bg-[#5271ff]  flex flex-col rounded-2xl">
@@ -70,9 +81,12 @@ const SectionPlans = () => {
             </div>
           </div>
           <div className="flex justify-center mb-7">
-            <button className="bg-[#F9FAFB] hover:bg-[#AFC2FF]  text-[#5271ff] font-medium lg:h-[40px] lg:w-[190px] h-10 w-32 text-[15px] rounded-full">
+            <Link
+              href="/planos"
+              className="bg-[#F9FAFB] hover:bg-[#AFC2FF]  text-[#5271ff] font-medium lg:h-[40px] lg:w-[190px] h-10 w-32 text-[15px] rounded-full flex justify-center px-4 py-2"
+            >
               Contratar
-            </button>
+            </Link>
           </div>
         </div>
       </div>

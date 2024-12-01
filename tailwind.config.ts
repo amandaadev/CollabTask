@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         background: "var(--background)",
+        "gradient-start": "rgb(234, 230, 255)",
+        "gradient-end": "rgb(255, 255, 255)",
         foreground: "var(--foreground)",
       },
       fontFamily: {

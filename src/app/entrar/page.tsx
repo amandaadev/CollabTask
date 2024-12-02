@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Cadastro = () => {
@@ -18,7 +19,7 @@ const Cadastro = () => {
 
   return (
     <div className="min-h-screen flex">
-      <div className="w-1/2 bg-gradient-to-r from-[#a735b5] to-[#b33375] flex items-center justify-center">
+      <div className="w-1/2 bg-[#5271ff] flex items-center justify-center">
         <Image
           src="/img/img-login.svg"
           alt="Cadastro Illustration"
@@ -29,7 +30,7 @@ const Cadastro = () => {
       </div>
 
       <div className="w-1/2 bg-[#FFFFFF] flex flex-col items-center justify-center px-8 py-12">
-        <h1 className="text-[#913276] font-archivo-bold font-semibold text-4xl mb-10">
+        <h1 className="text-[#5271ff] font-archivo-bold font-semibold text-4xl mb-10">
           Faça login na sua conta
         </h1>
 
@@ -46,7 +47,7 @@ const Cadastro = () => {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full p-3 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#913276] focus:border-[#913276]"
+              className="w-full p-3 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#5271ff] focus:border-[#5271ff]"
               placeholder="Digite seu email"
               required
             />
@@ -64,7 +65,7 @@ const Cadastro = () => {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full p-3 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#913276] focus:border-[#913276]"
+              className="w-full p-3 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#5271ff] focus:border-[#5271ff]"
               placeholder="Digite sua senha"
               required
             />
@@ -77,7 +78,7 @@ const Cadastro = () => {
                 type="checkbox"
                 checked={rememberMe}
                 onChange={() => setRememberMe(!rememberMe)}
-                className="h-4 w-4 text-[#913276] border-gray-300 rounded"
+                className="h-4 w-4 text-[#5271ff] border-gray-300 rounded"
               />
               <label
                 htmlFor="rememberMe"
@@ -89,24 +90,26 @@ const Cadastro = () => {
 
             <a
               href="#"
-              className="hover:text-[#913276] font-archivo text-sm text-[#913276]"
+              className="hover:text-[#5271ff] font-archivo text-sm text-[#5271ff]"
             >
               Esqueceu sua senha?
             </a>
           </div>
 
-          <button
+          <Link
+            href="/entrar"
             type="submit"
-            className="w-full py-3 bg-[#913276] text-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#7e2757]"
+            className="flex justify-center w-full mb-5 py-3 bg-[#5271ff] text-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#5271ff]"
           >
             Entrar na conta
-          </button>
-          <button
+          </Link>
+          <Link
+            href="/cadastro"
             type="submit"
-            className="w-full py-3 bg-white text-[#913276] rounded-md focus:outline-none focus:ring-2 focus:ring-[#7e2757] font-archivo font-bold"
+            className="flex justify-center w-full mt-5 py-3 bg-white text-[#5271ff] rounded-md focus:outline-none focus:ring-2 focus:ring-[#5271ff] font-archivo font-bold"
           >
             Crie sua conta
-          </button>
+          </Link>
         </form>
 
         {/* Links para "Esqueci minha senha" */}

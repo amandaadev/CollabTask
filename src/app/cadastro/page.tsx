@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Cadastro = () => {
@@ -18,7 +19,7 @@ const Cadastro = () => {
 
   return (
     <div className="min-h-screen flex">
-      <div className="w-1/2 bg-gradient-to-r from-[#a735b5] to-[#b33375] flex items-center justify-center">
+      <div className="w-1/2 bg-[#5271ff] flex items-center justify-center">
         <Image
           src="/img/img-cadastro.svg"
           alt="Cadastro Illustration"
@@ -30,7 +31,7 @@ const Cadastro = () => {
 
       <div className="w-1/2 bg-[#FFFFFF]">
         <div>
-          <h1 className="text-[#913276] font-archivo font-bold text-[42px] mb-20 pt-10 pr-11 text-right">
+          <h1 className="text-[#5271ff] font-archivo font-bold text-[32px] mb-20 pt-10 pr-11 text-right mr-10">
             Crie sua conta
           </h1>
         </div>
@@ -48,7 +49,7 @@ const Cadastro = () => {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full p-3 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#913276] focus:border-[#913276]"
+                className="w-full p-3 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#5271ff] focus:border-[#5271ff]"
                 placeholder="exemplo@gmail.com"
                 required
               />
@@ -66,7 +67,7 @@ const Cadastro = () => {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full p-3 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#913276] focus:border-[#913276]"
+                className="w-full p-3 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#5271ff] focus:border-[#5271ff]"
                 placeholder="0123456789"
                 required
               />
@@ -84,7 +85,7 @@ const Cadastro = () => {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full p-3 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#913276] focus:border-[#913276]"
+                className="w-full p-3 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#5271ff] focus:border-[#5271ff]"
                 placeholder="0123456789"
                 required
               />
@@ -102,7 +103,7 @@ const Cadastro = () => {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full p-3 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#913276] focus:border-[#913276]"
+                className="w-full p-3 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#5271ff] focus:border-[#5271ff]"
                 placeholder="0123456789"
                 required
               />
@@ -115,7 +116,7 @@ const Cadastro = () => {
                   type="checkbox"
                   checked={rememberMe}
                   onChange={() => setRememberMe(!rememberMe)}
-                  className="h-4 w-4 text-[#913276] border-gray-300 rounded"
+                  className="h-4 w-4 text-[#5271ff] border-gray-300 rounded"
                 />
                 <label
                   htmlFor="rememberMe"
@@ -126,18 +127,19 @@ const Cadastro = () => {
               </div>
             </div>
 
-            <button
+            <Link
+              href="/entrar"
               type="submit"
-              className="w-full py-3 bg-[#913276] text-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#7e2757]"
+              className="flex justify-center w-full py-3 bg-[#5271ff] text-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#5271ff] mb-5"
             >
               Entrar na conta
-            </button>
-            <button
-              type="submit"
-              className="w-full py-3 bg-white text-[#913276] rounded-md  focus:outline-none focus:ring-2 focus:ring-[#7e2757] font-archivo font-bold"
+            </Link>
+            <Link
+              href="/entrar"
+              className=" flex justify-center w-full px-4 py-2 mt-5 bg-white text-[#5271ff] rounded-md  focus:outline-none focus:ring-2 focus:ring-[#5271ff] font-archivo font-bold"
             >
               Login
-            </button>
+            </Link>
           </form>
 
           {/* Links para "Esqueci minha senha" */}

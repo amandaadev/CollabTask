@@ -13,47 +13,47 @@ const Dashboard = () => {
   const [error, setError] = useState<string | null>(null);
   const router = useRouter();
 
-  useEffect(() => {
-    const fetchUser = async () => {
-      try {
-        const response = await axios.get("/api/user");
-        setUser(response.data);
-      } catch (err) {
-        setError("Erro ao carregar os dados do usuário.");
-        router.push("/entrar");
-      } finally {
-        setLoading(false);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchUser = async () => {
+  //     try {
+  //       const response = await axios.get("/api/user");
+  //       setUser(response.data);
+  //     } catch (err) {
+  //       setError("Erro ao carregar os dados do usuário.");
+  //       router.push("/entrar");
+  //     } finally {
+  //       setLoading(false);
+  //     }
+  //   };
 
-    fetchUser();
-  }, []);
+  //   fetchUser();
+  // }, []);
 
-  const handleLogout = async () => {
-    try {
-      await axios.post("/api/logout");
-      localStorage.removeItem("authToken");
-      router.push("/entrar");
-    } catch {
-      setError("Erro ao tentar sair da conta.");
-    }
-  };
+  // const handleLogout = async () => {
+  //   try {
+  //     await axios.post("/api/logout");
+  //     localStorage.removeItem("authToken");
+  //     router.push("/entrar");
+  //   } catch {
+  //     setError("Erro ao tentar sair da conta.");
+  //   }
+  // };
 
-  if (loading) {
-    return (
-      <div className="flex items-center justify-center min-h-screen bg-gray-100">
-        <p className="text-lg font-semibold text-gray-700">Carregando...</p>
-      </div>
-    );
-  }
+  // if (loading) {
+  //   return (
+  //     <div className="flex items-center justify-center min-h-screen bg-gray-100">
+  //       <p className="text-lg font-semibold text-gray-700">Carregando...</p>
+  //     </div>
+  //   );
+  // }
 
-  if (error) {
-    return (
-      <div className="flex items-center justify-center min-h-screen bg-gray-100">
-        <p className="text-lg font-semibold text-red-500">{error}</p>
-      </div>
-    );
-  }
+  // if (error) {
+  //   return (
+  //     <div className="flex items-center justify-center min-h-screen bg-gray-100">
+  //       <p className="text-lg font-semibold text-red-500">{error}</p>
+  //     </div>
+  //   );
+  // }
 
   return (
     <div className="flex min-h-screen bg-gray-100">
@@ -123,7 +123,7 @@ const Dashboard = () => {
                 height={24}
                 className="object-cover mr-2"
               />
-              <button onClick={handleLogout}>Desconectar</button>
+              {/* <button onClick={handleLogout}>Desconectar</button> */}
             </li>
           </ul>
         </nav>
